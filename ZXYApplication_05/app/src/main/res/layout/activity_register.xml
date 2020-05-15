@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="30dp"
+        android:id="@+id/register"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:text="输入账号："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="输入密码："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="确定注册"
+        android:layout_width="match_parent"
+        android:id="@+id/button2"
+        android:onClick="registerclick"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
