@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <daname value="BoolStore"></daname>
+
+    <version value="1"></version>
+
+    <list>
+    </list>
+</litepal>
