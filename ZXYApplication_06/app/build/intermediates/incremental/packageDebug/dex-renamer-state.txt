@@ -1,0 +1,7 @@
+#Mon Jun 15 20:33:39 GMT+08:00 2020
+base.0=D\:\\AndroidStudioProjects\\ZXYApplication_06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1ae9ab551b5c27fd352078ef965234bc2e3c4974
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\AndroidStudioProjects\\ZXYApplication_06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bcd4d622a14719c3b417536aa0d0f08d4bb74dcf\\classes.dex
+base.1=D\:\\AndroidStudioProjects\\ZXYApplication_06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bcd4d622a14719c3b417536aa0d0f08d4bb74dcf
+file.0=D\:\\AndroidStudioProjects\\ZXYApplication_06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1ae9ab551b5c27fd352078ef965234bc2e3c4974\\classes.dex
