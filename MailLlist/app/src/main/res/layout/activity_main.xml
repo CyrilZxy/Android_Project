@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dn.zxyapplication_06.MainActivity"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+    <!-- 图片title -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:id="@+id/title"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/t1"
+            android:paddingTop="50dp"
+            android:layout_height="150dp" />
+    </RelativeLayout>
+
+
+    <!-- 线性布局（表格布局）：头像、账号密码显示和输入 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.20">
+
+
+
+        <!-- 表格布局：账号密码显示和输入 -->
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="账号:"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView1"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="20dp"
+                    android:textSize="25dp" />
+
+                <EditText
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:id="@+id/name"
+                    android:layout_width="200dp"
+                    android:autoText="false"
+                    android:textSize="25dp" />
+
+            </TableRow>
+
+            <TableRow android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:text="密码:"
+                    android:layout_height="match_parent"
+                    android:textSize="25dp"
+                    android:id="@+id/textView2"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="20dp" />
+
+                <EditText
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:id="@+id/password"
+                    android:layout_width="200dp"
+                    android:textSize="25dp" />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:text="登录"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:id="@+id/button1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="50dp"
+        android:onClick="myclick"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textStyle="normal|bold"
+        android:textSize="30dp" />
+
+
+    <!-- 登录按钮 -->
+
+
+    <!-- 3个复选框 -->
+
+
+    <!-- 忘记密码按钮+注册账号按钮 -->
+
+
+    <!-- 进度条 -->
+
+
+</LinearLayout>
+
+
